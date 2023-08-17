@@ -73,6 +73,17 @@ section{
     color: var(--black);
 }
 
+.heading{
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-size: 4rem;
+    color:var(--white);
+}
+
+.heading span{
+    color:var(--violet);
+}
+
 .header{
     position: fixed;
     top: 0;
@@ -217,6 +228,39 @@ section{
 }
 
 
+
+.footer{
+    background-color: var(--light-bg);
+    text-align: center;
+}
+
+.footer .share a{
+    margin:0 .3em;
+    height: 4.5rem;
+    width:4.5rem;
+    line-height: 4.5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color:var(--white);
+    background-color: var(--black);
+}
+
+.footer .share a:hover{
+    background-color: var(--violet);
+}
+
+.footer .credit {
+    margin-top: 2.5rem;
+    padding: 1.5rem;
+    padding-top: 2.5rem;
+    border-top: .1rem solid var(--light-white);
+    font-size: 2rem;
+    color: var(--light-white);
+}
+
+.footer .credit span{
+    color:var(--violet);
+}
 
 
 /*Media Queries*/
