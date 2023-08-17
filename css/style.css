@@ -78,6 +78,7 @@ section{
     text-align: center;
     font-size: 4rem;
     color:var(--white);
+    text-transform: uppercase;
 }
 
 .heading span{
@@ -262,6 +263,55 @@ section{
 }
 
 
+.teachers .slide{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 4rem;
+}
+
+.teachers .slide img{
+    height: 55rem;
+    width:100%;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+.teachers .slide h3{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color:var(--white);
+}
+
+.teachers .slide .share{
+    position: absolute;
+    top: 1rem;
+    left: -10rem;
+}
+
+.teachers .slide:hover .share{
+    left:2rem;
+}
+
+.teachers .slide .share a{
+    display: block;
+    margin-top: 1rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background-color: var(--white);
+    color:var(--black);
+    text-align: center;
+    font-size:2rem;
+}
+
+.teachers .slide .share a:hover{
+    background-color: var(--violet);
+    color:var(--white);
+}
+
+
 .contact .row{
     display: flex;
     align-items: center;
@@ -414,5 +464,8 @@ section{
     }
     .home .row .content h3{
         font-size: 5rem;
+    }
+    .heading{
+        font-size: 3rem;
     }
 }
