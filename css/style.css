@@ -57,6 +57,22 @@ section{
     padding: 2rem;
 }
 
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background-color: var(--light-bg);
+    cursor: pointer;
+    color:var(--white);
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+}
+
+.btn:hover{
+    background-color: var(--white);
+    color: var(--black);
+}
+
 .header{
     position: fixed;
     top: 0;
@@ -98,6 +114,42 @@ section{
 
 
 
+#home{
+    margin-top:15rem;
+}
+
+.home .row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap:1.5rem;
+}
+
+.home .row .content{
+    flex:1 1 40rem;
+    text-align: center;
+}
+
+.home .row .image{
+    flex:1 1 40rem;
+}
+
+.home .row .image img{
+    width:100%;
+}
+
+.home .row .content h3{
+    margin-bottom: 1rem;
+    font-size: 8rem;
+    color:var(--white);
+    line-height: 1;
+}
+
+.home .row .content h3 span{
+    color:var(--violet);
+}
+
+
 
 
 
@@ -106,6 +158,9 @@ section{
     
     html{
         font-size: 55%;
+    }
+    .home .row .content h3{
+        font-size: 8rem;
     }
 }
 
@@ -132,6 +187,9 @@ section{
     .header .flex .navbar a{
         display:block;
         margin:2rem;
+    }
+    .home .row .content h3{
+        font-size: 6rem;
     }
 }
 
