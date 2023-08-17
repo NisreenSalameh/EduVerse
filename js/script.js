@@ -7,6 +7,7 @@ menuBtn.onclick = () => {
 }
 
 
+//Courses Sliders
 var swiper = new Swiper(".course-slider", {
     spaceBetween: 20,
     grabCursor: true,
@@ -29,6 +30,8 @@ var swiper = new Swiper(".course-slider", {
   });
 
 
+
+  //Teachers Sliders
   var swiper = new Swiper(".teachers-slider", {
     spaceBetween: 20,
     grabCursor: true,
@@ -51,6 +54,8 @@ var swiper = new Swiper(".course-slider", {
   });
 
 
+
+  //Reviews Sliders
   var swiper = new Swiper(".reviews-slider", {
     spaceBetween: 20,
     grabCursor: true,
