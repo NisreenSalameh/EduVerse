@@ -25,13 +25,17 @@ EduVerse is a responsive and dynamic online education website, designed to provi
 git clone https://github.com/your-username/eduverse.git
 ```
 2.Open the project folder in your preferred code editor.
+
 3.Customize the content, styles, and images to fit your educational offerings.
+
 4.Add your own courses, teacher profiles, and reviews to enhance the website's content.
+
 5.Host the website on a web server to make it accessible online.
 
 
 ## Dependencies
 -Font Awesome: Used for icons and social media links.
+
 -Swiper.js: Used for creating interactive sliders.
 
 
