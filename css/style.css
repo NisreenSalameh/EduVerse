@@ -85,6 +85,8 @@ section{
     color:var(--violet);
 }
 
+
+/*Header Section*/
 .header{
     position: fixed;
     top: 0;
@@ -125,7 +127,7 @@ section{
 
 
 
-
+/*Home Section*/
 #home{
     margin-top:10rem;
 }
@@ -162,6 +164,8 @@ section{
 }
 
 
+
+/*Count Section*/
 .count .box-container{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -196,6 +200,9 @@ section{
 }
 
 
+
+
+/*About Section*/
 .about .row{
     display:flex;
     align-items: center;
@@ -230,6 +237,9 @@ section{
     color:var(--light-white);
 }
 
+
+
+/*Courses Section*/
 .courses .slide{
     background-color: var(--light-bg);
     border-radius: .5rem;
@@ -264,6 +274,9 @@ section{
 }
 
 
+
+
+/*Teachers Section*/
 .teachers .slide{
     position: relative;
     overflow: hidden;
@@ -313,6 +326,9 @@ section{
 }
 
 
+
+
+/*Reviews Section*/
 .reviews-slider .slide{
     border-radius: .5rem;
     background-color: var(--light-bg);
@@ -353,6 +369,8 @@ section{
 }
 
 
+
+/*Contact Section*/
 .contact .row{
     display: flex;
     align-items: center;
@@ -423,6 +441,8 @@ section{
 }
 
 
+
+/*Footer Section*/
 .footer{
     background-color: var(--light-bg);
     text-align: center;
