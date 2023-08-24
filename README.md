@@ -27,7 +27,6 @@ git clone https://github.com/your-username/eduverse.git
 
 
 This site was built using [GitHub Pages](https://pages.github.com/).
-
 Explore the ArtisticAlchemy Landing Page: [https://nisreensalameh.github.io/EduVerse/](https://nisreensalameh.github.io/EduVerse/)
 
 
