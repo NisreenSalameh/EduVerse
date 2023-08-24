@@ -16,7 +16,7 @@ EduVerse is a responsive and dynamic online education website, designed to provi
 ## Getting Started:
 1. Clone this repository to your local machine.
 ```
-git clone https://github.com/your-username/eduverse.git
+git clone https://github.com/NisreenSalameh/EduVerse.git
 ```
 2. Open the project folder in your preferred code editor.
 3. Customize the content, styles, and images to fit your educational offerings.
